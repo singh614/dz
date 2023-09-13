@@ -46,11 +46,11 @@ def enhance_video_quality(frame):
 
     return frame_denoised
 
-# Capture video from a url
-url = "http://192.168.54.242:8080/video"
-cap = cv2.VideoCapture(url)
+# # Capture video from a url
+# url = "http://192.168.54.242:8080/video"
+# cap = cv2.VideoCapture(url)
 
-# Capture video from laptop webcam
+# # Capture video from laptop webcam
 # cap = cv2.VideoCapture(0)
 
 # Get the original frame width and height
